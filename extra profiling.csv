@@ -1,0 +1,30 @@
+Column Name,Data Type,Missing Count,Missing %,Unique Values,Maximum,Minimum,Average,Zero Count,Duplicate Check,Notes
+CRASH DATE,Date ,0,0.00%,242,,,,,,
+CRASH TIME,Time,0,0.00%,1440,,,,,,
+BOROUGH,Categorical,25741,34.38%,5,,,,,,
+ZIP CODE,Identifier,25747,34.38%,198,,,,,,
+LATITUDE,Numeric,5946,7.94%,29106,,,,,,
+LONGITUDE,Numeric,5946,7.94%,23552,,,,,,
+ON STREET NAME,Text,19437,25.96%,3824,,,,,,
+CROSS STREET NAME,Text,39200,52.35%,4209,,,,,,
+OFF STREET NAME,Text,55444,74.04%,17443,,,,,,
+NUMBER OF PERSONS INJURED,Numeric,0,0.00%,12,15,0,0.37,54460,,
+NUMBER OF PERSONS KILLED,Numeric,0,0.00%,5,4,0,0.00,74746,,
+COLLISION_ID,Numeric,0,0.00%,74881,,,,,No Duplicates,Collision ID is unique for each row
+LOCATION,Text,5946,7.94%,36749,,,,,,
+NUMBER OF PEDESTRIANS INJURED,Numeric,0,0.00%,6,6,0,0.05,70928,,
+NUMBER OF PEDESTRIANS KILLED,Numeric,0,0.00%,2,1,0,0.00,74825,,
+NUMBER OF CYCLIST INJURED,Numeric,0,0.00%,4,3,0,0.04,71689,,
+NUMBER OF CYCLIST KILLED,Numeric,0,0.00%,2,1,0,0.00,74872,,
+NUMBER OF MOTORIST INJURED,Numeric,0,0.00%,12,15,0,0.27,61453,,
+NUMBER OF MOTORIST KILLED,Numeric,0,0.00%,5,4,0,0.00,74810,,
+CONTRIBUTING FACTOR VEHICLE 1,Categorical,304,0.41%,55,,,,,,
+CONTRIBUTING FACTOR VEHICLE 2,Categorical,15596,20.83%,45,,,,,,
+CONTRIBUTING FACTOR VEHICLE 3,Categorical,68116,90.97%,29,,,,,,
+CONTRIBUTING FACTOR VEHICLE 4,Categorical,73030,97.53%,12,,,,,,
+CONTRIBUTING FACTOR VEHICLE 5,Categorical,74358,99.30%,6,,,,,,
+VEHICLE TYPE CODE 1,Categorical,635,0.85%,219,,,,,,Unconsistencies in spellings
+VEHICLE TYPE CODE 2,Categorical,21240,28.37%,221,,,,,,Unconsistencies in spellings
+VEHICLE TYPE CODE 3,Categorical,68456,91.42%,47,,,,,,Unconsistencies in spellings
+VEHICLE TYPE CODE 4,Categorical,73110,97.64%,26,,,,,,Unconsistencies in spellings
+VEHICLE TYPE CODE 5,Categorical,74378,99.33%,14,,,,,,Unconsistencies in spellings
